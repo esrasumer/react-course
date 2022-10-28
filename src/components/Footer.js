@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Footerr({ theme, setTheme }) {
+function Footer({ theme, setTheme }) {
 
   const degistir = () => {
     setTheme(theme === 'beyaz' ? 'siyah' : 'beyaz')
@@ -14,4 +14,4 @@ function Footerr({ theme, setTheme }) {
   )
 }
 
-export default Footerr
+export default Footer

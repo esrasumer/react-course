@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Footerr from './components/Footerr';
-import Headerr from './components/Headerr';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      <Headerr theme={theme}/>
-      <Footerr theme={theme} setTheme={setTheme}/>
+      <Header theme={theme}/>
+      <Footer theme={theme} setTheme={setTheme}/>
 
     </div>
   );

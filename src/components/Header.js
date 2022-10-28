@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Headerr({theme}) {
+function Header({theme}) {
   return (
     <div>
         sayfa beyaz ={theme}
@@ -8,4 +8,4 @@ function Headerr({theme}) {
   )
 }
 
-export default Headerr
+export default Header
